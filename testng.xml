@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+	<test thread-count="5" name="InputFormTest">
+		<classes>
+			<class name="pageTesting.Project1TestCases" />
+		</classes>
+	</test> <!--
+	Testng -->
+	<test name="TableTest">
+		<classes>
+			<class name="pageTesting.Project2TestCases" />
+		</classes>
+	</test>
+	<test name="AlertsTest">
+		<classes>
+			<class name="pageTesting.Project3TestCases" />
+		</classes>
+	</test>
+	<test name="ProgressBarTest">
+		<classes>
+			<class name="pageTesting.Project4TestCases" />
+		</classes>
+	</test>
+
+	<test name="OthersTest">
+		<classes>
+			<class name="pageTesting.Project5TestCases" />
+		</classes>
+	</test>
+</suite> <!--
+Suite -->
