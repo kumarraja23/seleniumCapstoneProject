@@ -27,15 +27,15 @@ public class TableSortAndSearch {
 	By next = By.id("example_next");
 	By prev = By.id("example_previous");
 	
-	By search = By.xpath("//*[@id=\"example_filter\"]/label/input");
-	By name = By.xpath("//*[@id=\"example\"]/thead/tr/th[1]");
-	By position = By.xpath("//*[@id=\"example\"]/thead/tr/th[2]");
-	By office = By.xpath("//*[@id=\"example\"]/thead/tr/th[3]");
-	By age = By.xpath("//*[@id=\"example\"]/thead/tr/th[4]");
-	By date = By.xpath("//*[@id=\"example\"]/thead/tr/th[5]");
-	By salary = By.xpath("//*[@id=\"example\"]/thead/tr/th[6]");
+	By search = By.xpath("//*[@id='example_filter']/label/input");
+	By name = By.xpath("//*[@id='example']/thead/tr/th[1]");
+	By position = By.xpath("//*[@id='example']/thead/tr/th[2]");
+	By office = By.xpath("//*[@id='example']/thead/tr/th[3]");
+	By age = By.xpath("//*[@id='example']/thead/tr/th[4]");
+	By date = By.xpath("//*[@id='example']/thead/tr/th[5]");
+	By salary = By.xpath("//*[@id='example']/thead/tr/th[6]");
 	
-	By noof = By.xpath("//*[@id=\"example\"]/tbody/tr");
+	By noof = By.xpath("//*[@id='example']/tbody/tr");
 	By table = By.xpath("//table[@id = 'example']");
 	By tableRows = By.xpath("//table[@id = 'example']/tbody/tr");
 	

@@ -1,8 +1,11 @@
 package pages;
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class SimpleForm {
     WebDriver driver;
@@ -10,7 +13,7 @@ public class SimpleForm {
 
     public SimpleForm(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, 10); 
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10)); 
     }
 
     By msg = By.id("user-message");

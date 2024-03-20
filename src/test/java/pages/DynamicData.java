@@ -14,8 +14,8 @@ public class DynamicData {
 	By newuser = By.id("save");
 	By dynamic = By.id("loading");
 	
-	By item = By.xpath("//*[@id=\"treemenu\"]/li/ul/li[7]");
-	By subitem = By.xpath("//*[@id=\'treemenu\']/li/ul/li[7]/ul/li[2]/a");
+	By item = By.xpath("//*[@id='treemenu']//a[text() = 'Others']");
+	By subitem = By.xpath("//*[@id='treemenu']//a[contains(text(),'Dynamic')]");
 	
 	
 	public WebElement newUser() {

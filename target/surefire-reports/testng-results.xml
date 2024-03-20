@@ -108,16 +108,16 @@ In   Others -> Drag and Drop Testing is Completed !!]]>
 In   Others -> Dynamic Data Testing is Completed !!]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-03-14T20:59:39 IST" name="Suite" finished-at="2024-03-14T21:00:50 IST" duration-ms="71445">
+  <suite started-at="2024-03-20T15:53:55 IST" name="Suite" finished-at="2024-03-20T15:55:00 IST" duration-ms="65092">
     <groups>
     </groups>
-    <test started-at="2024-03-14T20:59:39 IST" name="InputFormTest" finished-at="2024-03-14T21:00:02 IST" duration-ms="23349">
+    <test started-at="2024-03-20T15:53:55 IST" name="InputFormTest" finished-at="2024-03-20T15:54:15 IST" duration-ms="19925">
       <class name="pageTesting.Project1TestCases">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pageTesting.Project1TestCases@19932c16]" started-at="2024-03-14T20:59:39 IST" name="beforeTest" finished-at="2024-03-14T20:59:48 IST" duration-ms="8729" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pageTesting.Project1TestCases@6b695b06]" started-at="2024-03-20T15:53:55 IST" name="beforeTest" finished-at="2024-03-20T15:54:02 IST" duration-ms="6778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="simpleFormTest()[pri:1, instance:pageTesting.Project1TestCases@19932c16]" started-at="2024-03-14T20:59:48 IST" name="simpleFormTest" finished-at="2024-03-14T20:59:49 IST" duration-ms="1830" status="PASS">
+        <test-method signature="simpleFormTest()[pri:1, instance:pageTesting.Project1TestCases@6b695b06]" started-at="2024-03-20T15:54:02 IST" name="simpleFormTest" finished-at="2024-03-20T15:54:03 IST" duration-ms="1602" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[In Input Forms Simple Form Demo Execution is Started !!]]>
@@ -128,7 +128,7 @@ In Input Forms Simple Form Demo Execution is completed !!]]>
             </line>
           </reporter-output>
         </test-method> <!-- simpleFormTest -->
-        <test-method signature="checkBoxTest()[pri:2, instance:pageTesting.Project1TestCases@19932c16]" started-at="2024-03-14T20:59:49 IST" name="checkBoxTest" finished-at="2024-03-14T20:59:52 IST" duration-ms="2723" status="PASS">
+        <test-method signature="checkBoxTest()[pri:2, instance:pageTesting.Project1TestCases@6b695b06]" started-at="2024-03-20T15:54:03 IST" name="checkBoxTest" finished-at="2024-03-20T15:54:06 IST" duration-ms="2497" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[In Input Forms Check Box Demo Execution is Started !!]]>
@@ -139,7 +139,7 @@ In Input Forms Check Box Demo Execution is Completed !!]]>
             </line>
           </reporter-output>
         </test-method> <!-- checkBoxTest -->
-        <test-method signature="radioButtonsTest()[pri:3, instance:pageTesting.Project1TestCases@19932c16]" started-at="2024-03-14T20:59:52 IST" name="radioButtonsTest" finished-at="2024-03-14T20:59:54 IST" duration-ms="1804" status="PASS">
+        <test-method signature="radioButtonsTest()[pri:3, instance:pageTesting.Project1TestCases@6b695b06]" started-at="2024-03-20T15:54:06 IST" name="radioButtonsTest" finished-at="2024-03-20T15:54:07 IST" duration-ms="1511" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[In Input Forms Radio Buttons Demo Execution is Started !!]]>
@@ -150,7 +150,7 @@ Input Forms Radio buttons Demo Execution is Completed !!]]>
             </line>
           </reporter-output>
         </test-method> <!-- radioButtonsTest -->
-        <test-method signature="selectDropdownTest()[pri:4, instance:pageTesting.Project1TestCases@19932c16]" started-at="2024-03-14T20:59:54 IST" name="selectDropdownTest" finished-at="2024-03-14T20:59:56 IST" duration-ms="2475" status="PASS">
+        <test-method signature="selectDropdownTest()[pri:4, instance:pageTesting.Project1TestCases@6b695b06]" started-at="2024-03-20T15:54:07 IST" name="selectDropdownTest" finished-at="2024-03-20T15:54:10 IST" duration-ms="2234" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[In Input Forms Select Dropdown Demo Execution is Started !!]]>
@@ -161,7 +161,7 @@ Input Forms Select Dropdown Demo Execution is Completed !!]]>
             </line>
           </reporter-output>
         </test-method> <!-- selectDropdownTest -->
-        <test-method signature="inputFormTest()[pri:5, instance:pageTesting.Project1TestCases@19932c16]" started-at="2024-03-14T20:59:56 IST" name="inputFormTest" finished-at="2024-03-14T21:00:02 IST" duration-ms="5657" status="PASS">
+        <test-method signature="inputFormTest()[pri:5, instance:pageTesting.Project1TestCases@6b695b06]" started-at="2024-03-20T15:54:10 IST" name="inputFormTest" finished-at="2024-03-20T15:54:15 IST" duration-ms="5183" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[In Input Forms Submit form Demo Execution is Started !!]]>
@@ -172,19 +172,19 @@ In Input Forms Submit form Demo Execution is Completed !!]]>
             </line>
           </reporter-output>
         </test-method> <!-- inputFormTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:pageTesting.Project1TestCases@19932c16]" started-at="2024-03-14T21:00:02 IST" name="afterTest" finished-at="2024-03-14T21:00:02 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:pageTesting.Project1TestCases@6b695b06]" started-at="2024-03-20T15:54:15 IST" name="afterTest" finished-at="2024-03-20T15:54:15 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- pageTesting.Project1TestCases -->
     </test> <!-- InputFormTest -->
-    <test started-at="2024-03-14T21:00:03 IST" name="TableTest" finished-at="2024-03-14T21:00:15 IST" duration-ms="11497">
+    <test started-at="2024-03-20T15:54:16 IST" name="TableTest" finished-at="2024-03-20T15:54:27 IST" duration-ms="11371">
       <class name="pageTesting.Project2TestCases">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pageTesting.Project2TestCases@333d4a8c]" started-at="2024-03-14T21:00:03 IST" name="beforeTest" finished-at="2024-03-14T21:00:03 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pageTesting.Project2TestCases@29d80d2b]" started-at="2024-03-20T15:54:16 IST" name="beforeTest" finished-at="2024-03-20T15:54:16 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="tablePaginationTest()[pri:0, instance:pageTesting.Project2TestCases@333d4a8c]" started-at="2024-03-14T21:00:03 IST" name="tablePaginationTest" finished-at="2024-03-14T21:00:05 IST" duration-ms="1727" status="PASS">
+        <test-method signature="tablePaginationTest()[pri:0, instance:pageTesting.Project2TestCases@29d80d2b]" started-at="2024-03-20T15:54:16 IST" name="tablePaginationTest" finished-at="2024-03-20T15:54:17 IST" duration-ms="1357" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[In Table -> Pagination Testing is Started !!]]>
@@ -195,7 +195,7 @@ In Table -> Pagination Testing is Completed !!]]>
             </line>
           </reporter-output>
         </test-method> <!-- tablePaginationTest -->
-        <test-method signature="tableDataSearchTest()[pri:1, instance:pageTesting.Project2TestCases@333d4a8c]" started-at="2024-03-14T21:00:05 IST" name="tableDataSearchTest" finished-at="2024-03-14T21:00:07 IST" duration-ms="2720" status="PASS">
+        <test-method signature="tableDataSearchTest()[pri:1, instance:pageTesting.Project2TestCases@29d80d2b]" started-at="2024-03-20T15:54:17 IST" name="tableDataSearchTest" finished-at="2024-03-20T15:54:20 IST" duration-ms="2932" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[In Table -> Table Data Search Testing is Started !!]]>
@@ -206,7 +206,7 @@ In Table -> Table Data Search Testing is Completed !!]]>
             </line>
           </reporter-output>
         </test-method> <!-- tableDataSearchTest -->
-        <test-method signature="tableSortAndSearchTest()[pri:2, instance:pageTesting.Project2TestCases@333d4a8c]" started-at="2024-03-14T21:00:07 IST" name="tableSortAndSearchTest" finished-at="2024-03-14T21:00:15 IST" depends-on-methods="pageTesting.Project2TestCases.tableDataSearchTest" duration-ms="7036" status="PASS">
+        <test-method signature="tableSortAndSearchTest()[pri:2, instance:pageTesting.Project2TestCases@29d80d2b]" started-at="2024-03-20T15:54:20 IST" name="tableSortAndSearchTest" finished-at="2024-03-20T15:54:27 IST" depends-on-methods="pageTesting.Project2TestCases.tableDataSearchTest" duration-ms="7067" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[In Table -> Table Sort And Search Testing is Started !!]]>
@@ -218,19 +218,19 @@ In Table -> Table Sort And Search Testing is Completed !!
             </line>
           </reporter-output>
         </test-method> <!-- tableSortAndSearchTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:pageTesting.Project2TestCases@333d4a8c]" started-at="2024-03-14T21:00:15 IST" name="afterTest" finished-at="2024-03-14T21:00:15 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:pageTesting.Project2TestCases@29d80d2b]" started-at="2024-03-20T15:54:27 IST" name="afterTest" finished-at="2024-03-20T15:54:27 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- pageTesting.Project2TestCases -->
     </test> <!-- TableTest -->
-    <test started-at="2024-03-14T21:00:15 IST" name="AlertsTest" finished-at="2024-03-14T21:00:30 IST" duration-ms="15431">
+    <test started-at="2024-03-20T15:54:27 IST" name="AlertsTest" finished-at="2024-03-20T15:54:42 IST" duration-ms="14352">
       <class name="pageTesting.Project3TestCases">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pageTesting.Project3TestCases@1a4927d6]" started-at="2024-03-14T21:00:15 IST" name="beforeTest" finished-at="2024-03-14T21:00:15 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pageTesting.Project3TestCases@5c86a017]" started-at="2024-03-20T15:54:27 IST" name="beforeTest" finished-at="2024-03-20T15:54:27 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="bootStrapAlertMsgTest()[pri:0, instance:pageTesting.Project3TestCases@1a4927d6]" started-at="2024-03-14T21:00:15 IST" name="bootStrapAlertMsgTest" finished-at="2024-03-14T21:00:19 IST" duration-ms="4039" status="PASS">
+        <test-method signature="bootStrapAlertMsgTest()[pri:0, instance:pageTesting.Project3TestCases@5c86a017]" started-at="2024-03-20T15:54:27 IST" name="bootStrapAlertMsgTest" finished-at="2024-03-20T15:54:30 IST" duration-ms="2627" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[In  Alerts & Modals -> Bootstrap Alerts Testing is Started !!]]>
@@ -241,7 +241,7 @@ In  Alerts & Modals -> Bootstrap Alerts Testing is Completed !!]]>
             </line>
           </reporter-output>
         </test-method> <!-- bootStrapAlertMsgTest -->
-        <test-method signature="windowPopupModelTest()[pri:1, instance:pageTesting.Project3TestCases@1a4927d6]" started-at="2024-03-14T21:00:19 IST" name="windowPopupModelTest" finished-at="2024-03-14T21:00:22 IST" duration-ms="3061" status="PASS">
+        <test-method signature="windowPopupModelTest()[pri:1, instance:pageTesting.Project3TestCases@5c86a017]" started-at="2024-03-20T15:54:30 IST" name="windowPopupModelTest" finished-at="2024-03-20T15:54:33 IST" duration-ms="3464" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[In  Alerts & Modals -> Window Popup Modal Testing is Started !!]]>
@@ -252,7 +252,7 @@ In  Alerts & Modals -> Window Popup Modal Testing is Completed !!]]>
             </line>
           </reporter-output>
         </test-method> <!-- windowPopupModelTest -->
-        <test-method signature="progressBarModel()[pri:2, instance:pageTesting.Project3TestCases@1a4927d6]" started-at="2024-03-14T21:00:22 IST" name="progressBarModel" finished-at="2024-03-14T21:00:30 IST" duration-ms="8323" status="PASS">
+        <test-method signature="progressBarModel()[pri:2, instance:pageTesting.Project3TestCases@5c86a017]" started-at="2024-03-20T15:54:33 IST" name="progressBarModel" finished-at="2024-03-20T15:54:42 IST" duration-ms="8249" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[In  Alerts & Modals -> Progress Bar Modal Testing is Started !!]]>
@@ -263,19 +263,19 @@ In  Alerts & Modals -> Progress Bar Modal Testing is Completed !!]]>
             </line>
           </reporter-output>
         </test-method> <!-- progressBarModel -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:pageTesting.Project3TestCases@1a4927d6]" started-at="2024-03-14T21:00:30 IST" name="afterTest" finished-at="2024-03-14T21:00:30 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:pageTesting.Project3TestCases@5c86a017]" started-at="2024-03-20T15:54:42 IST" name="afterTest" finished-at="2024-03-20T15:54:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- pageTesting.Project3TestCases -->
     </test> <!-- AlertsTest -->
-    <test started-at="2024-03-14T21:00:30 IST" name="ProgressBarTest" finished-at="2024-03-14T21:00:44 IST" duration-ms="13600">
+    <test started-at="2024-03-20T15:54:42 IST" name="ProgressBarTest" finished-at="2024-03-20T15:54:55 IST" duration-ms="13118">
       <class name="pageTesting.Project4TestCases">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pageTesting.Project4TestCases@16150369]" started-at="2024-03-14T21:00:30 IST" name="beforeTest" finished-at="2024-03-14T21:00:30 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pageTesting.Project4TestCases@7fb4f2a9]" started-at="2024-03-20T15:54:42 IST" name="beforeTest" finished-at="2024-03-20T15:54:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="dualListBoxTest()[pri:0, instance:pageTesting.Project4TestCases@16150369]" started-at="2024-03-14T21:00:30 IST" name="dualListBoxTest" finished-at="2024-03-14T21:00:40 IST" duration-ms="10063" status="PASS">
+        <test-method signature="dualListBoxTest()[pri:0, instance:pageTesting.Project4TestCases@7fb4f2a9]" started-at="2024-03-20T15:54:42 IST" name="dualListBoxTest" finished-at="2024-03-20T15:54:51 IST" duration-ms="9694" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[In   List Box -> Bootstrap List Box Testing is Started !!]]>
@@ -286,7 +286,7 @@ In   List Box -> Bootstrap List Box Testing is Completed !!]]>
             </line>
           </reporter-output>
         </test-method> <!-- dualListBoxTest -->
-        <test-method signature="jQueryDualLBTest()[pri:1, instance:pageTesting.Project4TestCases@16150369]" started-at="2024-03-14T21:00:40 IST" name="jQueryDualLBTest" finished-at="2024-03-14T21:00:44 IST" duration-ms="3531" status="PASS">
+        <test-method signature="jQueryDualLBTest()[pri:1, instance:pageTesting.Project4TestCases@7fb4f2a9]" started-at="2024-03-20T15:54:51 IST" name="jQueryDualLBTest" finished-at="2024-03-20T15:54:55 IST" duration-ms="3417" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[In List Box -> JQuery List Box Testing is Started !!]]>
@@ -297,19 +297,19 @@ In List Box -> JQuery List Box Testing is Completed !!]]>
             </line>
           </reporter-output>
         </test-method> <!-- jQueryDualLBTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:pageTesting.Project4TestCases@16150369]" started-at="2024-03-14T21:00:44 IST" name="afterTest" finished-at="2024-03-14T21:00:44 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:pageTesting.Project4TestCases@7fb4f2a9]" started-at="2024-03-20T15:54:55 IST" name="afterTest" finished-at="2024-03-20T15:54:55 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- pageTesting.Project4TestCases -->
     </test> <!-- ProgressBarTest -->
-    <test started-at="2024-03-14T21:00:44 IST" name="OthersTest" finished-at="2024-03-14T21:00:50 IST" duration-ms="6301">
+    <test started-at="2024-03-20T15:54:55 IST" name="OthersTest" finished-at="2024-03-20T15:55:00 IST" duration-ms="5041">
       <class name="pageTesting.Project5TestCases">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pageTesting.Project5TestCases@34bde49d]" started-at="2024-03-14T21:00:44 IST" name="beforeTest" finished-at="2024-03-14T21:00:44 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pageTesting.Project5TestCases@6933b6c6]" started-at="2024-03-20T15:54:55 IST" name="beforeTest" finished-at="2024-03-20T15:54:55 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="dragAndDropTest()[pri:0, instance:pageTesting.Project5TestCases@34bde49d]" started-at="2024-03-14T21:00:44 IST" name="dragAndDropTest" finished-at="2024-03-14T21:00:48 IST" duration-ms="4122" status="PASS">
+        <test-method signature="dragAndDropTest()[pri:0, instance:pageTesting.Project5TestCases@6933b6c6]" started-at="2024-03-20T15:54:55 IST" name="dragAndDropTest" finished-at="2024-03-20T15:54:58 IST" duration-ms="3370" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[In   Others -> Drag and Drop Testing is Started !!]]>
@@ -320,7 +320,7 @@ In   Others -> Drag and Drop Testing is Completed !!]]>
             </line>
           </reporter-output>
         </test-method> <!-- dragAndDropTest -->
-        <test-method signature="dynamicDataTest()[pri:1, instance:pageTesting.Project5TestCases@34bde49d]" started-at="2024-03-14T21:00:48 IST" name="dynamicDataTest" finished-at="2024-03-14T21:00:50 IST" duration-ms="1823" status="PASS">
+        <test-method signature="dynamicDataTest()[pri:1, instance:pageTesting.Project5TestCases@6933b6c6]" started-at="2024-03-20T15:54:58 IST" name="dynamicDataTest" finished-at="2024-03-20T15:55:00 IST" duration-ms="1387" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[In   Others -> Dynamic Data Testing is Started !!]]>
@@ -331,7 +331,7 @@ In   Others -> Dynamic Data Testing is Completed !!]]>
             </line>
           </reporter-output>
         </test-method> <!-- dynamicDataTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:pageTesting.Project5TestCases@34bde49d]" started-at="2024-03-14T21:00:50 IST" name="afterTest" finished-at="2024-03-14T21:00:50 IST" duration-ms="352" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:pageTesting.Project5TestCases@6933b6c6]" started-at="2024-03-20T15:55:00 IST" name="afterTest" finished-at="2024-03-20T15:55:00 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

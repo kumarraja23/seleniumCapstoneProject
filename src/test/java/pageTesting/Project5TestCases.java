@@ -11,6 +11,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.util.ArrayList;
 
 
@@ -53,7 +54,7 @@ public class Project5TestCases extends BaseClass {
 		  DragAndDrop obj = new DragAndDrop(driver);
 	      Actions dd = new Actions(driver);
 	      
-	      WebDriverWait wait = new WebDriverWait(driver, 10);
+	      WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	      ArrayList<String> dragdummyList = new ArrayList<>();
 	      ArrayList<String> dropdummyList = new ArrayList<>();
 	      

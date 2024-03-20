@@ -1,5 +1,7 @@
 package pages;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -30,12 +32,9 @@ public class CheckBox {
 	}
 	
 	public boolean isCheckAll() {
-		String arr[] = {"//*[@id=\"easycont\"]/div/div[2]/div[2]/div[2]/div[1]/label/input",
-				"//*[@id=\"easycont\"]/div/div[2]/div[2]/div[2]/div[2]/label/input",
-				"//*[@id=\"easycont\"]/div/div[2]/div[2]/div[2]/div[3]/label/input",
-				"//*[@id=\"easycont\"]/div/div[2]/div[2]/div[2]/div[4]/label/input"};
-		for(String str: arr) {
-			if(!driver.findElement(By.xpath(str)).isSelected()) {
+		List<WebElement> elements = driver.findElements(By.className("cb1-element"));
+		for(WebElement webEle: elements) {
+			if(!webEle.isSelected()) {
 				return false;
 			}
 		}
@@ -43,12 +42,9 @@ public class CheckBox {
 	}
 	
 	public boolean isUnCheckAll() {
-		String arr[] = {"//*[@id=\"easycont\"]/div/div[2]/div[2]/div[2]/div[1]/label/input",
-				"//*[@id=\"easycont\"]/div/div[2]/div[2]/div[2]/div[2]/label/input",
-				"//*[@id=\"easycont\"]/div/div[2]/div[2]/div[2]/div[3]/label/input",
-				"//*[@id=\"easycont\"]/div/div[2]/div[2]/div[2]/div[4]/label/input"};
-		for(String str: arr) {
-			if(driver.findElement(By.xpath(str)).isSelected()) {
+		List<WebElement> elements = driver.findElements(By.className("cb1-element"));
+		for(WebElement webEle: elements) {
+			if(webEle.isSelected()) {
 				return false;
 			}
 		}
@@ -58,13 +54,11 @@ public class CheckBox {
 	
 	// This method is used to select the check boxes randomly
 	public void randomCheck() {
-		String arr[] = {"//*[@id=\"easycont\"]/div/div[2]/div[2]/div[2]/div[1]/label/input",
-				"//*[@id=\"easycont\"]/div/div[2]/div[2]/div[2]/div[2]/label/input",
-				"//*[@id=\"easycont\"]/div/div[2]/div[2]/div[2]/div[3]/label/input",
-				"//*[@id=\"easycont\"]/div/div[2]/div[2]/div[2]/div[4]/label/input"};
-		int arr1[] = randomNumbers(arr.length);
-		driver.findElement(By.xpath(arr[arr1[0]])).click();
-		driver.findElement(By.xpath(arr[arr1[1]])).click();
+		List<WebElement> elements = driver.findElements(By.className("cb1-element"));
+		int arr1[] = randomNumbers(elements.size());
+		elements.get(arr1[0]).click();
+		elements.get(arr1[1]).click();
+		
 	}
 	
 	// This method is used to generate two random integers 

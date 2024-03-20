@@ -19,12 +19,12 @@ public class InputForm {
 	By city = By.name("city");
 	By postal = By.name("zip");
 	By web = By.name("website");
-	By hstYes = By.xpath("//*[@id=\"contact_form\"]/fieldset/div[10]/div/div[1]/label/input");
-	By hstNo = By.xpath("//*[@id=\"contact_form\"]/fieldset/div[10]/div/div[2]/label/input");
-	By comment = By.xpath("//*[@id=\"contact_form\"]/fieldset/div[11]/div/div/textarea");
+	By hstYes = By.xpath("//input[@name = 'hosting' and @value = 'yes']");
+	By hstNo = By.xpath("//input[@name = 'hosting' and @value = 'no']");
+	By comment = By.xpath("//textarea");
 	By submit = By.cssSelector(".col-md-4 button");
-	By state = By.xpath("//*[@id=\"contact_form\"]/fieldset/div[7]/div/div/select");
-	By color = By.xpath("//*[@id=\"contact_form\"]/fieldset/div[1]/label");
+	By state = By.xpath("//select[@name = 'state']");
+	By color = By.xpath("//label[text() = 'First Name']");
 	
 	public WebElement firstName() {
 		return driver.findElement(fname);

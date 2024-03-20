@@ -4,19 +4,26 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="InputFormTest(failed)">
+  <test thread-count="5" name="AlertsTest(failed)">
     <classes>
-      <class name="pageTesting.Project1TestCases">
+      <class name="pageTesting.Project3TestCases">
         <methods>
-          <include name="inputFormTest"/>
-          <include name="afterTest"/>
-          <include name="simpleFormTest"/>
-          <include name="radioButtonsTest"/>
+          <include name="progressBarModel"/>
           <include name="beforeTest"/>
-          <include name="selectDropdownTest"/>
-          <include name="checkBoxTest"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- pageTesting.Project1TestCases -->
+      </class> <!-- pageTesting.Project3TestCases -->
     </classes>
-  </test> <!-- InputFormTest(failed) -->
+  </test> <!-- AlertsTest(failed) -->
+  <test thread-count="5" name="ProgressBarTest(failed)">
+    <classes>
+      <class name="pageTesting.Project4TestCases">
+        <methods>
+          <include name="dualListBoxTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- pageTesting.Project4TestCases -->
+    </classes>
+  </test> <!-- ProgressBarTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

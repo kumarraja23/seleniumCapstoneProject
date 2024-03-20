@@ -11,19 +11,19 @@ public class DualListBox {
 		this.driver = driver;
 	}
 	
-	By leftsng = By.xpath("//div/div[1]/div/ul/li[3]");
+	By leftsng = By.xpath("//div[@class = 'well text-right'] /ul/li[3]");
 	By right_mv = By.cssSelector(".move-right");
 	By left_mv = By.cssSelector(".move-left");
-	By leftall = By.xpath("//*[@id=\"listhead\"]/div[2]/div/a/i");
-	By rightall = By.xpath("//*[@id=\"listhead\"]/div[1]/div/a/i");
-	By rightSearch = By.xpath("//*[@id=\"listhead\"]/div[2]/div/input");
-	By leftSearch = By.xpath("//*[@id=\"listhead\"]/div[1]/div/input");
-	By rightsng = By.xpath("//div[2]/div/div[3]/div/ul/li[2]");
+	By leftall = By.xpath("(//div[@class = 'btn-group'])[1]/a/i");
+	By rightall = By.xpath("(//div[@class = 'btn-group'])[2]/a/i");
+	By rightSearch = By.xpath("(//div[@class = 'input-group'])[2]/input");
+	By leftSearch = By.xpath("(//div[@class = 'input-group'])[1]/input");
+	By rightsng = By.xpath("//div[@class = 'dual-list list-right col-md-5']//li[contains(text() ,'Dapibus')]");
 	
-	By unselectR = By.xpath("//div/div[3]/div/ul/li[6]");
-	By unselectL = By.xpath("//div[2]/div/div[1]/div/ul/li[5]");
-	By leftSearchedItem = By.xpath("//div[2]/div/div[1]/div/ul/li[4]");
-	By rightSearchItem = By.xpath("//div/div[3]/div/ul/li[1]");
+	By unselectR = By.xpath("//div[@class = 'dual-list list-right col-md-5']//li[last()]");
+	By unselectL = By.xpath("//div[@class = 'well text-right']//li[last()]");
+	By leftSearchedItem = By.xpath("//div[@class = 'well text-right']//li[not(@style)]");
+	By rightSearchItem = By.xpath("//div[@class = 'dual-list list-right col-md-5']//li[not(@style)]");
 	
 	
 	

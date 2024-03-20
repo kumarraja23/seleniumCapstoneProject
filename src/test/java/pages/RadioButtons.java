@@ -11,12 +11,12 @@ public class RadioButtons {
 		this.driver = driver;
 	}
 	
-	By gender = By.xpath("//*[@id=\"easycont\"]/div/div[2]/div[1]/div[2]/label[1]/input");
+	By gender = By.xpath("//*[@class = 'radio-inline']/input[@name='optradio' and @value = 'Male']");
 	By checkedValue = By.id("buttoncheck");
-	By gender1 = By.xpath("//*[@id=\"easycont\"]/div/div[2]/div[2]/div[2]/div[1]/label[1]/input");
+	By gender1 = By.xpath("//*[@class = 'radio-inline']/input[@value = 'Male' and @name='gender']");
 	By age = By.cssSelector("input[value = '5 - 15']");
-	By get = By.xpath("//*[@id=\"easycont\"]/div/div[2]/div[2]/div[2]/button");
-	By msg = By.xpath("//*[@id=\"easycont\"]/div/div[2]/div[1]/div[2]/p[3]");
+	By get = By.xpath("//button[text() = 'Get values']");
+	By msg = By.xpath("//p[@class = 'radiobutton']");
 	By gmsg = By.cssSelector("p.groupradiobutton");
 	
 	public WebElement gender() {

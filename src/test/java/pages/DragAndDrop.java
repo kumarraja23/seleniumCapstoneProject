@@ -13,10 +13,10 @@ public class DragAndDrop {
         this.driver = driver;
     }
     
-    By drop = By.xpath("//*[@id=\"mydropzone\"]");
-    By drag = By.xpath("//*[@id=\"todrag\"]/span");
+    By drop = By.xpath("//*[@id='mydropzone']");
+    By drag = By.xpath("//*[@id='todrag']/span");
     
-    By dropLt = By.xpath("//*[@id=\"droppedlist\"]/span");
+    By dropLt = By.xpath("//*[@id='droppedlist']/span");
   
     public WebElement to() {
     	return driver.findElement(drop);

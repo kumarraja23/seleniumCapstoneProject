@@ -49,7 +49,7 @@ public class BaseClass {
 	public void takeScreenShot(String name) throws IOException {
 		System.out.println("Screen shot has been taken!!");
 		File scrfile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(scrfile, new File("C:/Users/I7023/eclipse-workspace/capstoneProject/target/screenshots/"+timeStamp()+".png"));
+		FileUtils.copyFile(scrfile, new File("C:/Users/I7023/eclipse-workspace/updatedCapstoneProject/target/screenshots/"+timeStamp()+".png"));
 	}
 	
 	public String timeStamp() {

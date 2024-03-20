@@ -12,6 +12,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 
 import java.io.IOException;
+import java.time.Duration;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -125,7 +126,7 @@ public class Project3TestCases extends BaseClass {
 		  obj.simpleDialog().click();
 		  Assert.assertEquals(obj.progressBar().isDisplayed(), true);
 		  
-		  WebDriverWait wait = new WebDriverWait(driver,10);
+		  WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		  wait.until(ExpectedConditions.elementToBeClickable(obj.dialogWithCustomMsg()));
 		  
 		  obj.dialogWithCustomMsg().click();
